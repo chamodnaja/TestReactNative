@@ -52,7 +52,7 @@ export default function AddUser({route, navigation}) {
                 {errors.firstName && <Text style={styles.textError}>{errors.firstName.message}</Text>}
             </View>
             <View style={styles.item}>
-                <Text>นามสกุล</Text>
+                <Text>นามสกุล: </Text>
                 <Controller
                     control={control}
                     rules={{
