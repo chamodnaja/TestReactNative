@@ -33,7 +33,7 @@ export default function AddUser({route, navigation}) {
     return (
         <View style={styles.container}>
             <View style={styles.item}>
-                <Text>ชื่อ</Text>
+                <Text>ชื่อ: </Text>
                 <Controller
                     control={control}
                     rules={{
